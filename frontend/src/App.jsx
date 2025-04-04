@@ -70,7 +70,6 @@ function App() {
       />
       <button onClick={addNote}>Добави</button>
 
-      
       <ul>
         {notes.map((note) => (
           <li key={note.id}>
